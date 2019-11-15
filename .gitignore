@@ -59,5 +59,3 @@ Logger/obj/*
 *.azurePubxml
 *.pubxml
 *.publishproj
-Logger/Properties/*
-*.csproj.user
