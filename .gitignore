@@ -59,3 +59,4 @@ Logger/obj/*
 *.azurePubxml
 *.pubxml
 *.publishproj
+packages/*
