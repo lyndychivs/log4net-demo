@@ -7,16 +7,10 @@
 
     public class CustomLogger
     {
-        public ILog FrameworkLogger(Type declaringType)
+        public ILog GetLogger(Type declaringType)
         {
             LoadConfigurationFileAndWatch();
             return LogManager.GetLogger(declaringType);
-        }
-
-        public ILog HttpLogger()
-        {
-            LoadConfigurationFileAndWatch();
-            return LogManager.GetLogger("HttpLogger");
         }
 
         private void LoadConfigurationFileAndWatch()
